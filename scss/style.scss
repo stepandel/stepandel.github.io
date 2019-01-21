@@ -1,7 +1,15 @@
-$main_font: 'Andale Mono';
+$main_font: 'andale_monoregular';
 $header-color: #e9ecef;
 $main-color: #e9ecef;
 $dark-color: rgb(52, 58, 64);
+
+@font-face {
+  font-family: 'andale_monoregular';
+  src: url('../fonts/andalemono-webfont.woff2') format('woff2'),
+    url('../fonts/andalemono-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @media (min-width: 768px) {
   #resume {
@@ -100,6 +108,13 @@ body {
   .iphone {
     img {
       width: 20vw;
+      height: auto;
+    }
+  }
+
+  .iphone-small {
+    img {
+      width: 50vw;
       height: auto;
     }
   }

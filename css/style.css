@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "andale_monoregular";
+  src: url("../fonts/andalemono-webfont.woff2") format("woff2"), url("../fonts/andalemono-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 @media (min-width: 768px) {
   #resume {
     color: #343a40;
@@ -27,7 +33,7 @@
   }
 }
 body {
-  font-family: "Andale Mono";
+  font-family: "andale_monoregular";
 }
 
 .navbar {
@@ -62,7 +68,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: "Andale Mono";
+  font-family: "andale_monoregular";
   color: #e9ecef;
 }
 #about .header {
@@ -81,6 +87,10 @@ body {
 }
 #portfolio .iphone img {
   width: 20vw;
+  height: auto;
+}
+#portfolio .iphone-small img {
+  width: 50vw;
   height: auto;
 }
 #portfolio .img-small img {
