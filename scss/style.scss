@@ -1,119 +1,142 @@
-
-$main_font: "Andale Mono";
+$main_font: 'Andale Mono';
 $header-color: #e9ecef;
 $main-color: #e9ecef;
-$dark-color: rgb(52,58,64);
+$dark-color: rgb(52, 58, 64);
 
-
-body{
-    font-family: $main_font;
-}
-
-.navbar{
-    border-bottom: #000000 2px solid;
-    background: #e9ecef;
-
-    img{
-        width: 90px;
-        height: auto;
-    }
-}
-
-#about{
-    background:url(../img/Background-2.jpg);
+@media (min-width: 768px) {
+  #resume {
+    color: $dark-color;
+    background: url(../img/Career-Path-BG.gif);
     background-size: cover;
     background-attachment: fixed;
 
-    img{
-        display: block;
-        padding-top: 30vh;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50vw;
-        height: auto;
+    img {
+      display: block;
+      width: 60vw;
+      height: auto;
+      margin: 0 auto;
     }
-
-    .main-header{
-        position: relative;
-        display: flex;
-        min-height: 100vh;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-
-        font-family: $main_font;
-        color: $header-color;
-        
-    }
-
-    .header{
-        font-size: 70px;
-    }
-
-    .sub-header{
-        font-size: 20px;
-        letter-spacing: 11px;
-    }
+  }
 }
 
-#services{
-
+@media (max-width: 767px) {
+  #resume {
     color: $dark-color;
+    background: url(../img/Career-Path-BG.gif);
+    background-size: cover;
+    background-attachment: fixed;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
 }
 
-#portfolio{
-    
-    a{
-        color: $header-color;
-
-        :hover{
-
-            color: #fff;
-        }
-    }
-
-    .img-small{
-
-        img{
-            width: 70vw;
-            height: auto;
-        }
-    }
-
-    img{
-        width: 40vw;
-        height: auto;
-    }
+body {
+  font-family: $main_font;
 }
 
-.social-link{
+.navbar {
+  border-bottom: #000000 2px solid;
+  background: #e9ecef;
 
-    font-size: 30px;
+  img {
+    width: 90px;
+    height: auto;
+  }
 }
 
-#contact{
+#about {
+  background: url(../img/Background-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 
-    .social{
+  img {
+    display: block;
+    padding-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: auto;
+  }
 
-        letter-spacing: 4px;
+  .main-header {
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: $main_font;
+    color: $header-color;
+  }
+
+  .header {
+    font-size: 70px;
+  }
+
+  .sub-header {
+    font-size: 20px;
+    letter-spacing: 11px;
+  }
+}
+
+#portfolio {
+  a {
+    color: $header-color;
+
+    :hover {
+      color: #fff;
     }
+  }
 
+  .iphone {
+    img {
+      width: 20vw;
+      height: auto;
+    }
+  }
+
+  .img-small {
+    img {
+      width: 70vw;
+      height: auto;
+    }
+  }
+
+  img {
+    width: 40vw;
+    height: auto;
+  }
+}
+
+.social-link {
+  font-size: 30px;
+}
+
+#contact {
+  .social {
+    letter-spacing: 4px;
+  }
+
+  color: $dark-color;
+
+  a {
     color: $dark-color;
 
-    a{
-        color: $dark-color;
-
-        :hover{
-
-            color: #000;
-        }
+    :hover {
+      color: #000;
     }
+  }
 }
 
-#footer{
-
-    color: $main-color;
+#footer {
+  color: $main-color;
 }
