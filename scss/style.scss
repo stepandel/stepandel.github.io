@@ -11,7 +11,7 @@ $dark-color: rgb(52, 58, 64);
   font-style: normal;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #resume {
     color: $dark-color;
     background: url(../img/Career-Path-BG.gif);
@@ -27,7 +27,7 @@ $dark-color: rgb(52, 58, 64);
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #resume {
     color: $dark-color;
     background: url(../img/Career-Path-BG.gif);
@@ -96,6 +96,12 @@ body {
   }
 }
 
+#computer_skills {
+  .main-container {
+    border-left: $dark-color 1px solid;
+  }
+}
+
 #portfolio {
   a {
     color: $header-color;
@@ -107,14 +113,14 @@ body {
 
   .iphone {
     img {
-      width: 20vw;
+      width: 15vw;
       height: auto;
     }
   }
 
   .iphone-small {
     img {
-      width: 50vw;
+      width: 35vw;
       height: auto;
     }
   }

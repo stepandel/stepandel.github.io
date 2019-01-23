@@ -4,7 +4,7 @@
   font-weight: normal;
   font-style: normal;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #resume {
     color: #343a40;
     background: url(../img/Career-Path-BG.gif);
@@ -18,7 +18,7 @@
     margin: 0 auto;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #resume {
     color: #343a40;
     background: url(../img/Career-Path-BG.gif);
@@ -79,6 +79,10 @@ body {
   letter-spacing: 11px;
 }
 
+#computer_skills .main-container {
+  border-left: #343a40 1px solid;
+}
+
 #portfolio a {
   color: #e9ecef;
 }
@@ -86,11 +90,11 @@ body {
   color: #fff;
 }
 #portfolio .iphone img {
-  width: 20vw;
+  width: 15vw;
   height: auto;
 }
 #portfolio .iphone-small img {
-  width: 50vw;
+  width: 35vw;
   height: auto;
 }
 #portfolio .img-small img {
