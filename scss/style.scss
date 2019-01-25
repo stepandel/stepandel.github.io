@@ -118,9 +118,23 @@ body {
     }
   }
 
+  .iphone-full {
+    img {
+      width: 12vw;
+      height: auto;
+    }
+  }
+
   .iphone-small {
     img {
       width: 35vw;
+      height: auto;
+    }
+  }
+
+  .iphone-small-full {
+    img {
+      width: 30vw;
       height: auto;
     }
   }

@@ -93,8 +93,16 @@ body {
   width: 15vw;
   height: auto;
 }
+#portfolio .iphone-full img {
+  width: 12vw;
+  height: auto;
+}
 #portfolio .iphone-small img {
   width: 35vw;
+  height: auto;
+}
+#portfolio .iphone-small-full img {
+  width: 30vw;
   height: auto;
 }
 #portfolio .img-small img {
