@@ -90,7 +90,7 @@ body {
   color: #fff;
 }
 #portfolio .iphone img {
-  width: 15vw;
+  width: 17vw;
   height: auto;
 }
 #portfolio .iphone-full img {
@@ -105,9 +105,20 @@ body {
   width: 30vw;
   height: auto;
 }
+#portfolio .img-large img {
+  width: 20vw;
+  height: auto;
+}
 #portfolio .img-small img {
   width: 70vw;
   height: auto;
+}
+#portfolio .img-small-2 img {
+  width: 35vw;
+  height: auto;
+}
+#portfolio .bor-right {
+  border-right: #e9ecef 1px solid;
 }
 #portfolio img {
   width: 40vw;

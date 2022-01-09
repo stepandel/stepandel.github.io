@@ -113,7 +113,7 @@ body {
 
   .iphone {
     img {
-      width: 15vw;
+      width: 17vw;
       height: auto;
     }
   }
@@ -139,11 +139,29 @@ body {
     }
   }
 
+  .img-large {
+    img {
+      width: 20vw;
+      height: auto;
+    }
+  }
+
   .img-small {
     img {
       width: 70vw;
       height: auto;
     }
+  }
+
+  .img-small-2 {
+    img {
+      width: 35vw;
+      height: auto;
+    }
+  }
+
+  .bor-right {
+    border-right: $main-color 1px solid;
   }
 
   img {
