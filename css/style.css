@@ -7,9 +7,6 @@
 @media (min-width: 992px) {
   #resume {
     color: #343a40;
-    background: url(../img/Career-Path-BG.gif);
-    background-size: cover;
-    background-attachment: fixed;
   }
   #resume img {
     display: block;
@@ -17,19 +14,34 @@
     height: auto;
     margin: 0 auto;
   }
+  #resume .social {
+    letter-spacing: 4px;
+  }
+  #resume a {
+    color: #343a40;
+  }
+  #resume a :hover {
+    color: #000;
+  }
 }
 @media (max-width: 991px) {
   #resume {
     color: #343a40;
-    background: url(../img/Career-Path-BG.gif);
-    background-size: cover;
-    background-attachment: fixed;
   }
   #resume img {
     display: block;
     width: 100%;
     height: auto;
     margin: 0 auto;
+  }
+  #resume .social {
+    letter-spacing: 4px;
+  }
+  #resume a {
+    color: #343a40;
+  }
+  #resume a :hover {
+    color: #000;
   }
 }
 body {
