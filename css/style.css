@@ -92,7 +92,11 @@ body {
 }
 
 #computer_skills .main-container {
-  border-left: #343a40 1px solid;
+  border-left: none;
+}
+#computer_skills .img-logo img {
+  width: 32px;
+  height: auto;
 }
 
 #portfolio a {

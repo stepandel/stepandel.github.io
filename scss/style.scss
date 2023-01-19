@@ -116,7 +116,14 @@ body {
 
 #computer_skills {
   .main-container {
-    border-left: $dark-color 1px solid;
+    // border-left: $dark-color 1px solid;
+    border-left: none;
+  }
+  .img-logo {
+    img {
+      width: 32px;
+      height: auto;
+    }
   }
 }
 
